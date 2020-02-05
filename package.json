@@ -1,0 +1,23 @@
+{
+  "name": "ux-icon-builder",
+  "version": "1.0.0",
+  "description": "Generate Icon Sets for Aurelia Ux Icons",
+  "main": "index.js",
+  "scripts": {
+    "mdi": "node build-mdi-icons-sets.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/platform5/ux-icon-builder.git"
+  },
+  "author": "Ben Girardet <ben@platform5.ch>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/platform5/ux-icon-builder/issues"
+  },
+  "homepage": "https://github.com/platform5/ux-icon-builder#readme",
+  "dependencies": {
+    "@mdi/svg": "^4.9.95",
+    "@mdi/util": "^0.3.0"
+  }
+}
